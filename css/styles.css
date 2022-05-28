@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "thaleahfat";
+    src: url("../fonts/thaleahfat-webfont.woff2") format("woff2"),
+        url("../fonts/thaleahfat-webfont.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+body {
+	text-align: center;
+	background-color: #827397;
+}
+
+/*dicebox section*/
+.main-container{
+	text-align: center;
+	position: relative;
+	padding-top: 15%;
+}
+.dicebox-base {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,0%);
+
+	width: 600px;
+	height: 452px;
+	background: url("../images/base0.png") no-repeat;
+}
+.dicebox-btn{
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(106%,3.3%);
+
+	width: 136px;
+	height: 422px;
+	border: none;
+	background: url("../images/alavanca1.png") no-repeat;
+}
+.dicebox-table {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-65%,10.5%);
+
+	width: 436px;
+	height: 152px;
+	background: url("../images/table.png") no-repeat;
+}
+.dicebox-label {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-60.5%,26%);
+
+	width: 436px;
+	height: 152px;
+	background: url("../images/label0.png") no-repeat;
+}
+
+.dicebox-lampP1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-225%,170%);
+
+	width: 96px;
+	height: 96px;
+	background: url("../images/lamp-off.png") no-repeat;
+}
+
+.dicebox-lampP2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,170%);
+
+	width: 96px;
+	height: 96px;
+	background: url("../images/lamp-off.png") no-repeat;
+}
+
+.dicebox-container1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-154%,160%);
+
+	width: 164px;
+	height: 164px;
+	background: url("../images/container-dado.png") no-repeat;
+}
+
+.dicebox-container2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,160%);
+
+	width: 164px;
+	height: 164px;
+	background: url("../images/container-dado.png") no-repeat;
+}
+
+.dicebox-dice1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-240%,320%);
+
+	width: 92px;
+	height: 92px;
+	background: url("../images/dice-01.png") no-repeat;
+}
+
+.dicebox-dice2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-54.5%,320%);
+
+	width: 92px;
+	height: 92px;
+	background: url("../images/dice-01.png") no-repeat;
+}
